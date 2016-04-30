@@ -29,6 +29,10 @@
 
 module CmplxRoots
 
+warn("This package is deprecated.  Use PolynomialRoots.jl instead:
+
+  Pkg.update(); Pkg.add(\"PolynomialRoots\")")
+
 export roots, roots5
 
 const third = 1//3
